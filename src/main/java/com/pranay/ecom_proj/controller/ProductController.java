@@ -22,7 +22,7 @@ public class ProductController {
 
     @RequestMapping("/")
     public String greet(){
-        return "Pranay"; 
+        return "Pranaydeep";
     }
     @GetMapping("/products")
 //    public List<Product> getAllProducts(){return service.getAllProducts();}
