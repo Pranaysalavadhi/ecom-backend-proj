@@ -15,9 +15,9 @@ FROM eclipse-temurin:21-jdk
 WORKDIR /app
 
 # Copy the built JAR file from the previous stage
-COPY --from=build /target/ecom-proj-0.0.1-SNAPSHOT.jar ecom-proj.jar
+COPY --from=build /app/target/backend-app.jar backend-app.jar
 
 # Expose port 8080
 EXPOSE 8080
 # Run the application
-ENTRYPOINT ["java", "-jar", "ecom-proj.jar"]
+ENTRYPOINT ["java", "-jar", "backend-app.jar"]
