@@ -45,5 +45,5 @@ This backend application powers the core logic of an e-commerce platform. It han
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/shopshere.git
-cd shopshere
+[git clone https://github.com/your-username/shopshere.git](https://github.com/Pranaysalavadhi/ecom-backend-proj.git)
+cd ecom-backend-proj
